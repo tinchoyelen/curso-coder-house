@@ -1,0 +1,146 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+header{
+    background-color: rgb(209, 205, 205) ;
+    padding: 0 60px 15px 60px;
+}
+
+#portada{
+    padding: 4px;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#tituloPrincipal 
+{
+    text-align: center;
+    color: rgb(0, 132, 255);
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+#menu{
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+display: inline-block;
+width: 24%;
+padding: 0;
+margin: 0;
+text-align: center;
+
+}
+#menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#menu li a:visited,
+#menu li a:hover{
+color: black;
+}
+
+body {background-color: rgb(0, 195, 255);}
+main{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.columna{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+}
+#columna-izquierda div{
+background-color: white;
+padding: 4px;
+}
+
+.contenedorImagen{
+    display: inline-block;
+    padding: 25px;
+    background-color: rgb(209, 205, 205);
+}
+
+.contenedorQuienes{
+    display: inline-block;
+    padding: 25px;
+    background-color: none;
+}
+
+.contenedorContacto{
+    display: inline-block;
+    padding: 25px;
+    background-color: none;
+}
+.contenedorImagen.caja1{
+    margin: 0 5px 5px 0;
+}
+.contenedorImagen.caja2{
+    margin: 0 0px 5px 5px;
+}
+.contenedorImagen.caja3{
+    margin: 5px 5px 0 0;
+}
+.contenedorImagen.caja4{
+    margin: 5px 0 0 5px;
+}
+.contenedorImagen img{
+    width: 250px;
+    height: 250px;
+}
+.contenedorImagen p{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(209, 205, 205);
+    padding: 25px;
+}
+
+footer nav ul{
+    display: inline-block;
+}
+
+#redes{
+    width: 65%;
+}
+#redes li{
+    display: inline-block;
+    width: 24%;
+}
+#info{
+    width: 28%;
+}
+#info li{
+    margin-bottom: 10px;
+}
+#info li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#info li a:visited,
+#info li a:hover {
+    color:black;
+}
+
+.redesIcono{
+    width: 50px;
+    height: 50px;
+}
+
+#foto-centrada{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h3 {
+    font-size: medium;
+}
