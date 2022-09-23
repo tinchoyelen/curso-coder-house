@@ -21,28 +21,12 @@ header{
     font-size: 35px;
     margin: 10px 0;
 }
-
-#menu{
-    padding: 0;
-    margin: 0;
-}
-#menu li {
-display: inline-block;
-width: 24%;
-padding: 0;
-margin: 0;
-text-align: center;
-
-}
-#menu li a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 19px;
+.background-nav{ 
+    background-image: none
 }
 
-#menu li a:visited,
-#menu li a:hover{
-color: black;
+.background-logo{
+    background-image: none
 }
 
 .tranciscionquienessomos:hover{
@@ -68,7 +52,7 @@ main{
 .columna{
     width: 45%;
     display: inline-block;
-    padding: 20px;
+    padding: 6px;
     vertical-align: top;
 }
 #columna-izquierda div{
