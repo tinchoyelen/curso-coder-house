@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 *{font-family: Arial, Helvetica, sans-serif;}
 
 header{
@@ -29,20 +33,58 @@ header{
     background-image: none
 }
 
-.tranciscionquienessomos:hover{
-    transform: scale(1.5); 
-}
-.tranciscioncontacto:hover{
-    transform: scale(1.5);
-}
-.tranciscionnuestrascasas:hover{
-    transform: scale(1.5);
-}
-.tranciscionfotos:hover{
-    transform: scale(1.5);
+carrousel-dimension{
+    width: 80%;
+    margin: 0 auto;
 }
 
-body {background-color: rgb(0, 195, 255);}
+footer{
+    
+    padding: 25px;
+    background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
+}
+
+footer nav ul{
+    display: inline-block;
+}
+
+#redes{
+    width: 65%;
+}
+#redes li{
+    display: inline-block;
+    width: 24%;
+}
+#info{
+    width: 28%;
+}
+#info li{
+    margin-bottom: 10px;
+}
+#info li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#info li a:visited,
+#info li a:hover {
+    color:black;
+}
+
+.redesIcono{
+    width: 50px;
+    height: 50px;
+}
+
+#foto-centrada{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h3 {
+    font-size: medium;
+}
+body { background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));}
 main{
     max-width: 1500px;
     width: 100%;
@@ -101,49 +143,137 @@ padding: 4px;
     text-align: center;
 }
 
-footer{
-    
-    padding: 25px;
-    background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
 }
 
-footer nav ul{
-    display: inline-block;
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
 }
 
-#redes{
-    width: 65%;
-}
-#redes li{
-    display: inline-block;
-    width: 24%;
-}
-#info{
-    width: 28%;
-}
-#info li{
-    margin-bottom: 10px;
-}
-#info li a {
-    text-decoration: none;
-    font-weight: bold;
-}
-#info li a:visited,
-#info li a:hover {
-    color:black;
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
 }
 
-.redesIcono{
-    width: 50px;
-    height: 50px;
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
 }
 
-#foto-centrada{
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
+
+label{
+  display: block; 
+  float: center;  
 }
 
-h3 {
-    font-size: medium;
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
 }

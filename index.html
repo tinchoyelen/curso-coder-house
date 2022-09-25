@@ -17,22 +17,22 @@
   
   <header>
     <div class="caja">
-    <img id="portada" src="multimedia/imagenes/fotopanoramicamontaña1.jpg" alt="cerro catedral">
+    <img id="portada" class="img-fluid container-fluid" src="multimedia/imagenes/fotopanoramicamontaña1.jpg" alt="cerro catedral">
     </div>
     
     <nav class="navbar navbar-expand-lg background-nav">
       <div class="container-fluid background-logo">
         <a class="navbar-brand" href="index.html">
-          <img src="multimedia/logo2.png" alt="logo">
+          <img class="background-logo" src="multimedia/logosinfondo.png" alt="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
           <div id="menu" class="navbar-nav">
-            <a class="nav-link tranciscionquienessomos" href="quienessomos.html">Quienes somos</a>
-            <a class="nav-link tranciscioncontacto" href="contacto.html">Contacto</a>
-            <a class="nav-link tranciscionfotos" href="fotos.html">fotos</a>
-            <a class="nav-link tranciscionnuestrascasas" href="nuestrascasas.html">Nuestras casas</a>
+            <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="fotos.html">fotos</a>
+            <a class="nav-link" href="nuestrascasas.html">Nuestras casas</a>
           </div>
         </div>
       </div>
@@ -41,15 +41,49 @@
   </header>
   
   <main>
-    <div id="columna-izquierda" class="columna">
-      <div><img src="multimedia/imagenes/montaña1.jpg" width="100%" alt="foto de montaña"></div>
-    </div> 
-    <div id="columna-derecha" class="columna">
-      <div class="contenedorImagen caja1" ><img src="multimedia/imagenes/casavilla10.jpg" alt="foto de casa8"><p> lorem ipsum</p></div>
-      <div class="contenedorImagen caja2"><img src="multimedia/imagenes/casavilla11.jpg" alt="foto de casa12"><p> lorem ipsum</p></div>
-      <div class="contenedorImagen caja3"><img src="multimedia/imagenes/casavilla12.jpg" alt="foto de cabaña3"><p> lorem ipsum</p></div>
-      <div class="contenedorImagen caja4"><img src="multimedia/imagenes/casavilla2.jpg"  alt="foto de cabaña5"><p> lorem ipsum</p></div>  
-    </div>
+    <section class="container">
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide carrousel-dimension" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+      </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="multimedia/imagenes/montaña1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cerro Catedral</h5>
+              <p>El mejor lugar para pasar un buen momento.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="multimedia/imagenes/casavilla10.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cerro Catedral</h5>
+              <p>El mejor lugar para pasar un buen momento.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="multimedia/imagenes/casavilla11.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cerro Catedral</h5>
+              <p>El mejor lugar para pasar un buen momento.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
   </main>
 
 
