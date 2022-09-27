@@ -15,176 +15,113 @@
 <body>
   
   <header>
-    <div class="caja">
-    <img id="portada" class="img-fluid container-fluid" src="multimedia/imagenes/fotopanoramicamontaña1.jpg" alt="cerro catedral">
-    </div>
-    
     <nav class="navbar navbar-expand-lg background-nav">
       <div class="container-fluid background-logo">
         <a class="navbar-brand" href="index.html">
           <img class="background-logo" src="multimedia/logotipom.png" alt="logo">
+          </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-          <div id="menu" class="navbar-nav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-end">
             <a class="nav-link" href="quienessomos.html">Quienes somos</a>
             <a class="nav-link" href="contacto.html">Contacto</a>
-            <a class="nav-link" href="fotos.html">fotos</a>
+            <a class="nav-link" href="fotos.html">Fotos</a>
             <a class="nav-link" href="nuestrascasas.html">Nuestras casas</a>
           </div>
         </div>
       </div>
     </nav>
-
   </header>
     
+<div class="container">
+<div class="row align-items-start">
+  <div class="col-lg-6">
+    <div class="imagen-mariana"><img src="multimedia/imagenes/villacatedral3.jpg" width="100%" alt="foto de mariana"></div>
+  </div>
+  <div class="col-lg-6">
+    <div class="contact_form">
 
-    <section class="container">
-      <div class="row">
-        <div class="col-lg-6"><img src="multimedia/imagenes/villacatedral3.jpg" width="100%" alt="foto de mariana">
-          <div class="contact_form">
-
-            <div class="formulario">      
+      <div class="formulario">      
+        
+          <h3>Para mayor informacion, escríbenos y en breve nos pondremos en contacto contigo</h3>
+  
+  
+            <form action="submeter-formulario.php" method="post">       
+  
               
-                <h3>Para mayor informacion, escríbenos y en breve nos pondremos en contacto contigo</h3>
-        
-        
-                  <form action="submeter-formulario.php" method="post">       
-        
-                    
-                        <p>
-                          <label for="nombre" class="colocar_nombre">Nombre
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                        </p>
-                      
-                        <p>
-                          <label for="email" class="colocar_email">Email
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                        </p>
-                    
-                        <p>
-                          <label for="telefone" class="colocar_telefono">Teléfono
-                          </label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                        </p>    
-                      
-                        <p>
-                          <label for="asunto" class="colocar_asunto">Asunto
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                        </p>    
-                      
-                        <p>
-                          <label for="mensaje" class="colocar_mensaje">Mensaje
-                            <span class="obligatorio">*</span>
-                          </label>                     
-                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                        </p>                    
-                      
-                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-        
-                        <p class="aviso">
-                          <span class="obligatorio"> * </span>los campos son obligatorios.
-                        </p>          
-                    
-                  </form>
-            </div>  
-          </div>
-      </div>
-    </section>
-
-
-    <section>
-        <div id="columna-izquierda" class="columna">
-            <div><img src="multimedia/imagenes/villacatedral3.jpg" width="100%" alt="foto de mariana"></div>
-          </div> 
-          <div id="columna-derecha" class="columna">
-            <div class="contenedorContacto" > 
-          <div class="contact_form">
-
-            <div class="formulario">      
+                  <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                  </p>
+                
+                  <p>
+                    <label for="email" class="colocar_email">Email
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                  </p>
               
-                <h3>Para mayor informacion, escríbenos y en breve nos pondremos en contacto contigo</h3>
-        
-        
-                  <form action="submeter-formulario.php" method="post">       
-        
-                    
-                        <p>
-                          <label for="nombre" class="colocar_nombre">Nombre
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                        </p>
-                      
-                        <p>
-                          <label for="email" class="colocar_email">Email
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                        </p>
-                    
-                        <p>
-                          <label for="telefone" class="colocar_telefono">Teléfono
-                          </label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                        </p>    
-                      
-                        <p>
-                          <label for="asunto" class="colocar_asunto">Asunto
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                        </p>    
-                      
-                        <p>
-                          <label for="mensaje" class="colocar_mensaje">Mensaje
-                            <span class="obligatorio">*</span>
-                          </label>                     
-                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                        </p>                    
-                      
-                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-        
-                        <p class="aviso">
-                          <span class="obligatorio"> * </span>los campos son obligatorios.
-                        </p>          
-                    
-                  </form>
-            </div>  
-          </div>
-        
+                  <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                      <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                  </p>    
+                
+                  <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                  </p>    
+                
+                  <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                      <span class="obligatorio">*</span>
+                    </label>                     
+                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                  </p>                    
+                
+                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+                  <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                  </p>          
+              
+            </form>
+      </div>  
+    </div>
 
-
-
-
-
-
-          </section>
+  </div>
+</div>
+</div>
       
-      <footer class="footer">
-        <nav>
-          <ul id="redes">
-            <li class="animate__animated animate__fadeInLeft"><a href="https://www.facebook.com" target="_blank"><img class="redesIcono" src="multimedia/facebook.png" alt="facebook"></a></li> 
-            <li class="animate__animated animate__fadeInLeft"><a href="https://www.instagram.com" target="_blank"><img class="redesIcono" src="multimedia/instagram.png" alt="instagram"></a></li>
-            <li class="animate__animated animate__fadeInLeft"><a href="https://wa.me/123456789" target="_blank"><img class="redesIcono" src="multimedia/whatsapp.png" alt="whatsapp"></a></li>
-            <li class="animate__animated animate__fadeInLeft"><a href="https://goo.gl/maps/pnroP7vVJpmQbQiy5" target="_blank"><img class="redesIcono" src="multimedia/map.png" alt="googlemaps"></a></li>
-        </ul>
 
-       <ul id="info">
-           <li class="animate__animated animate__fadeInRight" ><a href="contacto.html">Contacto</a></li>
-           <li class="animate__animated animate__fadeInRight">Politica de cancelacion</li>
-           <li class="animate__animated animate__fadeInRight"><a href="https://es.snow-forecast.com/resorts/Catedral/6day/mid"target="_blank">Tiempo en Cerro Catedral</a></li>
-       </ul>
-       
-          </nav>
-      </footer>
+ <footer class="footer">
+    <div class="container-fluid">
+      <nav class="row">
+        <div class="col-12 col-md-8">
+          <div id="redes">
+             <div class="animate__animated animate__fadeInLeft redes-icono"><a href="https://www.facebook.com" target="_blank"><img class="redesIcono" src="multimedia/facebook.png" alt="facebook"></a></div> 
+             <div class="animate__animated animate__fadeInLeft redes-icono"><a href="https://www.instagram.com" target="_blank"><img class="redesIcono" src="multimedia/instagram.png" alt="instagram"></a></div>
+             <div class="animate__animated animate__fadeInLeft redes-icono"><a href="https://wa.me/123456789" target="_blank"><img class="redesIcono" src="multimedia/whatsapp.png" alt="whatsapp"></a></div>
+             <div class="animate__animated animate__fadeInLeft redes-icono"><a href="https://goo.gl/maps/pnroP7vVJpmQbQiy5" target="_blank"><img class="redesIcono" src="multimedia/map.png" alt="googlemaps"></a></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4" id="info">
+            <div class="animate__animated animate__fadeInRight" ><a href="contacto.html">Contacto</a></div>
+            <div class="animate__animated animate__fadeInRight">Politica de cancelacion</div>
+            <div class="animate__animated animate__fadeInRight"><a href="https://es.snow-forecast.com/resorts/Catedral/6day/mid"target="_blank">Tiempo en Cerro Catedral</a></div>
+        </div>
+        
+      </nav>
+    </div>
+    
+  </footer>
 
 
 
