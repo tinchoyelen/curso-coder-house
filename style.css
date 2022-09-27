@@ -9,6 +9,10 @@ header{
      background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
 }
 
+.navbar-toggler{
+  width: 20%;
+}
+
 
 #portada{
     padding: 4px;
@@ -16,6 +20,7 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+
 
 
 #tituloPrincipal 
@@ -33,9 +38,14 @@ header{
     background-image: none
 }
 
-carrousel-dimension{
+.carrousel-dimension{
     width: 80%;
     margin: 0 auto;
+}
+
+.carrousel-dimension2{
+  width: 50%;
+  margin: 0 auto;
 }
 
 footer{
@@ -44,31 +54,35 @@ footer{
     background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
 }
 
-footer nav ul{
-    display: inline-block;
-}
+
 
 #redes{
-    width: 65%;
+  display: flex;
+  justify-content: space-evenly;
 }
-#redes li{
-    display: inline-block;
-    width: 24%;
-}
+
+
+
+
 #info{
-    width: 28%;
+    padding-top: 28px;
+    text-align: center;
 }
-#info li{
+#info div{
     margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
 }
-#info li a {
+#info div a {
     text-decoration: none;
     font-weight: bold;
 }
-#info li a:visited,
-#info li a:hover {
+#info div a:visited,
+#info div a:hover {
     color:black;
 }
+
+
 
 .redesIcono{
     width: 50px;
@@ -276,4 +290,42 @@ p{
 .formulario textarea:focus{
   outline:0;
   border: 1px solid #97d848;
+}
+
+.nav-link{
+  padding-left: 15px !important;
+ 
+}
+
+/*medias querys*/
+
+@media (min-width: 481px)
+{ 
+  .nav-link { 
+    font-size: 14px;
+  }
+  
+ 
+
+}
+
+@media (min-width: 768px)
+{
+  #info{
+    padding-top: 0px;
+    text-align: left;
+  }
+
+
+}
+
+@media (min-width: 1025px)
+{ 
+  .nav-link { 
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  
+
 }
