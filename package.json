@@ -1,0 +1,23 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Martin Pablo Yelen</h1>\r <h3 align=\"center\">A passionate of communications from Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinchoyelen/curso-coder-house.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinchoyelen/curso-coder-house/issues"
+  },
+  "homepage": "https://github.com/tinchoyelen/curso-coder-house#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
