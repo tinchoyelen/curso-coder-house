@@ -1,14 +1,30 @@
 
 
 
-nav {background-image: none;
-    div{background-image: none;
-        a{
-            img{background-image: none;}
+header
+{
+    padding: 0 60px 15px 60px;
+    background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
+    nav 
+    {background-image: none;
+        div
+        {background-image: none;
+            a
+            {
+                img{background-image: none;}
 
-         }
-        button{ width: 20%;}
-        div{ div{ a{}}} 
+            }
+        button
+              { width: 20%;
+                span{}
+              }
+        div{ div{ 
+                  a{}
+                  a{}
+                  a{}
+                  a{}
+                }
+            } 
        }
     }
-
+}

@@ -9,6 +9,7 @@ header{
      padding: 0 60px 15px 60px;
      background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
 }
+/*listo*/
 
 .navbar-toggler{
   width: 20%;
@@ -22,6 +23,7 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+/*esto no se donde va*/
 
 /*esto no deberia ir en ningun lado*/
 
