@@ -1,5 +1,185 @@
-@import 'components/header';
+nav {
+  background-image: none;
+}
+nav div {
+  background-image: none;
+}
+nav div a img {
+  background-image: none;
+}
+nav div button {
+  width: 20%;
+}
+footer {
+  padding: 25px;
+  background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
+}
+footer div nav div div {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer div nav div div div a {
+  width: 50px;
+  height: 50px;
+}
+footer div nav div div div a {
+  width: 50px;
+  height: 50px;
+}
+footer div nav div div div a {
+  width: 50px;
+  height: 50px;
+}
+footer div nav div {
+  padding-top: 28px;
+  text-align: center;
+}
+footer div nav div div {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+footer div nav div div a {
+  text-decoration: none;
+  font-weight: bold;
+}
+footer div nav div div {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+footer div nav div div a {
+  text-decoration: none;
+  font-weight: bold;
+}
+footer div nav div div {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+footer div nav div div a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div div div div {
+  margin-top: 80px;
+}
+div div div div {
+  width: 100%;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  max-width: 460px;
+  min-width: 320px;
+  padding-right: 30px;
+}
+div div div div div h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+div div div div div form p label {
+  display: block;
+  float: center;
+}
+div div div div div form p label span {
+  color: #ab4493;
+}
+div div div div div form p input {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+div div div div div form p label {
+  display: block;
+  float: center;
+}
+div div div div div form p input {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+div div div div div form p label {
+  display: block;
+  float: center;
+}
+div div div div div form p label span {
+  color: #ab4493;
+}
+div div div div div form p input {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+div div div div div form p label {
+  display: block;
+  float: center;
+}
+div div div div div form p label span {
+  color: #ab4493;
+}
+div div div div div form p textarea {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+div div div div div form button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+div div div div div form button p {
+  color: #fff;
+}
+div div div div div form p {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+div div div div div form p span {
+  color: #ab4493;
+}
 
 /*# sourceMappingURL=style.css.map */
-
-
