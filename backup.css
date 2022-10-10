@@ -3,6 +3,7 @@
     padding: 0;
 }
 *{font-family: Arial, Helvetica, sans-serif;}
+/*estilos generales*/
 
 header{
      padding: 0 60px 15px 60px;
@@ -12,7 +13,8 @@ header{
 .navbar-toggler{
   width: 20%;
 }
-
+ 
+/*header*/
 
 #portada{
     padding: 4px;
@@ -20,6 +22,8 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+
+/*esto no deberia ir en ningun lado*/
 
 
 
@@ -30,6 +34,10 @@ header{
     font-size: 35px;
     margin: 10px 0;
 }
+
+/*esto no deberia ir en ningun lado*/
+
+
 .background-nav{ 
     background-image: none
 }
@@ -37,6 +45,8 @@ header{
 .background-logo{
     background-image: none
 }
+
+/*header ya pasado chequear*/
 
 .carrousel-dimension{
     width: 80%;
@@ -48,18 +58,21 @@ header{
   margin: 0 auto;
 }
 
+/*esto lo tengo que agregar en el index q no lo cree aun*/
+
 footer{
     
     padding: 25px;
     background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
 }
 
-
+/*me falta agregar el background-image: linear-gradient pero no deberia ir xq tengo uno del formulario que me lo da a todo*/
 
 #redes{
   display: flex;
   justify-content: space-evenly;
 }
+/*listo redes*/
 
 
 
@@ -82,12 +95,14 @@ footer{
     color:black;
 }
 
+/*me falta agregar infodiva visited y el del hover*/
 
 
 .redesIcono{
     width: 50px;
     height: 50px;
 }
+/*ya esta .redesIcono*/
 
 #foto-centrada{
     display: flex;
