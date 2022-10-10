@@ -66,7 +66,7 @@ footer{
     background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
 }
 
-/*me falta agregar el background-image: linear-gradient pero no deberia ir xq tengo uno del formulario que me lo da a todo*/
+/*agregado a footer*/
 
 #redes{
   display: flex;
@@ -203,6 +203,7 @@ body{
   font-family: 'Noto Sans', sans-serif;
   background-color: #ab4493; 
 }
+/*me falta importar @import y el body pero me modifica todo si lo cambio correcto*/
 
 
 .contact_form{  
@@ -219,6 +220,8 @@ body{
   padding-right: 30px;
 }
 
+/*ya agregado*/
+
 
 input{
   background-color: #fbfbfb; 
@@ -232,6 +235,7 @@ input{
   padding-left: 10px;
   margin-bottom: 20px; 
 }
+/*ya agregado*/
 
 
 textarea{
@@ -247,12 +251,14 @@ textarea{
   margin-bottom: 20px; 
   padding-top: 15px; 
 }
+/*ya agregado*/
 
 
 label{
   display: block; 
   float: center;  
 }
+/*ya agregado*/
 
 
 button{
@@ -269,23 +275,25 @@ button{
   width: 100%;   
   cursor: pointer;
 }
-
+/*ya agregado*/
 
 button p{
   color: #fff; 
 }
+/*ya agregado*/
 
 
 span{
   color: #ab4493; 
 }
+/*ya agregado*/
 
 
 .aviso{
   font-size: 13px;  
   color: #0e0e0e;  
 }
-
+/*ya agregado*/
 
 h1{
   font-size: 39px;  
@@ -293,7 +301,7 @@ h1{
   padding-bottom: 20px; 
   color: #ab4493;
 }
-
+/*me falta agregar este*/
 
 h3{
   font-size: 16px; 
@@ -301,6 +309,7 @@ h3{
   color: #0e0e0e;   
 }
 
+/*ya agregue*/
 
 p{
   font-size: 14px; 
