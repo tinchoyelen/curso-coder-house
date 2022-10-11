@@ -16,6 +16,11 @@ footer{
         padding-top: 28px;
         text-align: center;
 
+        @media (min-width: 768px){
+            padding-top: 0px;
+            text-align: left;
+        }
+
         & div{
             margin-bottom: 10px;
             font-weight: bold;

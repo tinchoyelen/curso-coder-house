@@ -156,9 +156,7 @@ padding: 4px;
     text-align: center;
 }
 
-.imagen-mariana{
-  margin-top: 80px;
-}
+
 
 .adicionales{
   justify-content: center;
@@ -206,34 +204,9 @@ padding: 4px;
 
 
 
-/*medias querys*/
-
-@media (min-width: 481px)
-{ 
-  .nav-link { 
-    font-size: 14px;
-  }
-  
-
-}
-
-@media (min-width: 768px)
-{
-  #info{
-    padding-top: 0px;
-    text-align: left;
-  }
 
 
-}
-
-@media (min-width: 1025px)
-{ 
-  .nav-link { 
-    font-size: 22px;
-    font-weight: bold;
-  }
   
   
 
-}
+

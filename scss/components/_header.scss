@@ -16,9 +16,19 @@ header {
             }
         }
     }
-     
+
     & .nav-link{
         padding-left: 15px !important;
+        @media (min-width: 481px){
+            font-size: 14px;
+        }
+        @media (min-width: 1025px){
+            font-size: 22px;
+            font-weight: bold;
+        }
        
       }
 }
+
+
+
