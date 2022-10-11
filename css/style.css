@@ -176,4 +176,25 @@ footer #info div a:visited, footer #info div a:hover {
   border: 1px solid #97d848;
 }
 
+section .columna {
+  width: 45%;
+  display: inline-block;
+  padding: 6px;
+  vertical-align: top;
+}
+section #columna-izquierda div {
+  background-color: white;
+  padding: 4px;
+}
+section .contenedorQuienes {
+  display: inline-block;
+  padding: 25px;
+  background-color: none;
+}
+
+section .carrousel-dimension2 {
+  width: 35%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
