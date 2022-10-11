@@ -1,3 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
+}
+
+main {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 header {
   padding: 0 60px 15px 60px;
   background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
@@ -5,71 +25,49 @@ header {
 header nav {
   background-image: none;
 }
-header nav div {
+header nav .background-logo {
   background-image: none;
 }
-header nav div a img {
-  background-image: none;
-}
-header nav div button {
+header nav .background-logo .navbar-toggler {
   width: 20%;
 }
+header .nav-link {
+  padding-left: 15px !important;
+}
+
 footer {
   padding: 25px;
   background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
 }
-footer div nav div div {
+footer #redes {
   display: flex;
   justify-content: space-evenly;
 }
-footer div nav div div div a {
+footer #redes .redesIcono {
   width: 50px;
   height: 50px;
 }
-footer div nav div div div a {
-  width: 50px;
-  height: 50px;
-}
-footer div nav div div div a {
-  width: 50px;
-  height: 50px;
-}
-footer div nav div {
+footer #info {
   padding-top: 28px;
   text-align: center;
 }
-footer div nav div div {
+footer #info div {
   margin-bottom: 10px;
   font-weight: bold;
   color: black;
 }
-footer div nav div div a {
+footer #info div a {
   text-decoration: none;
   font-weight: bold;
 }
-footer div nav div div {
-  margin-bottom: 10px;
-  font-weight: bold;
+footer #info div a:visited, footer #info div a:hover {
   color: black;
-}
-footer div nav div div a {
-  text-decoration: none;
-  font-weight: bold;
-}
-footer div nav div div {
-  margin-bottom: 10px;
-  font-weight: bold;
-  color: black;
-}
-footer div nav div div a {
-  text-decoration: none;
-  font-weight: bold;
 }
 
-div div div div {
+.contacto .imagen-mariana {
   margin-top: 80px;
 }
-div div div div {
+.contacto .contact_form {
   width: 100%;
   height: auto;
   margin: 80px auto;
@@ -82,19 +80,7 @@ div div div div {
   min-width: 320px;
   padding-right: 30px;
 }
-div div div div div h3 {
-  font-size: 16px;
-  padding-bottom: 30px;
-  color: #0e0e0e;
-}
-div div div div div form p label {
-  display: block;
-  float: center;
-}
-div div div div div form p label span {
-  color: #ab4493;
-}
-div div div div div form p input {
+.contacto .contact_form input {
   background-color: #fbfbfb;
   width: 100%;
   height: 40px;
@@ -106,49 +92,7 @@ div div div div div form p input {
   padding-left: 10px;
   margin-bottom: 20px;
 }
-div div div div div form p label {
-  display: block;
-  float: center;
-}
-div div div div div form p input {
-  background-color: #fbfbfb;
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ab4493;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-}
-div div div div div form p label {
-  display: block;
-  float: center;
-}
-div div div div div form p label span {
-  color: #ab4493;
-}
-div div div div div form p input {
-  background-color: #fbfbfb;
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ab4493;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-}
-div div div div div form p label {
-  display: block;
-  float: center;
-}
-div div div div div form p label span {
-  color: #ab4493;
-}
-div div div div div form p textarea {
+.contacto .contact_form textarea {
   background-color: #fbfbfb;
   width: 100%;
   height: 150px;
@@ -161,7 +105,11 @@ div div div div div form p textarea {
   margin-bottom: 20px;
   padding-top: 15px;
 }
-div div div div div form button {
+.contacto .contact_form label {
+  display: block;
+  float: center;
+}
+.contacto .contact_form button {
   height: 45px;
   padding-left: 5px;
   padding-right: 5px;
@@ -175,24 +123,40 @@ div div div div div form button {
   width: 100%;
   cursor: pointer;
 }
-div div div div div form button p {
+.contacto .contact_form button p {
   color: #fff;
 }
-div div div div div form p {
+.contacto .contact_form span {
+  color: #ab4493;
+}
+.contacto .contact_form .aviso {
   font-size: 13px;
   color: #0e0e0e;
 }
-div div div div div form p span {
+.contacto .contact_form h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
   color: #ab4493;
 }
-
-* {
-  margin: 0;
-  padding: 0;
+.contacto .contact_form h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
 }
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
+.contacto .contact_form p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+.contacto .contact_form ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+.contacto .contact_form ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+.contacto .contact_form .formulario input:focus, .contacto .contact_form .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
 }
 
 /*# sourceMappingURL=style.css.map */
