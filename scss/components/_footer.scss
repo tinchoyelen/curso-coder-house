@@ -20,6 +20,10 @@ footer{
             padding-top: 0px;
             text-align: left;
         }
+        @media (max-width: 768px){
+            display: none;
+        }
+        /*probar con este elimino el menu de abajo*/
 
         & div{
             margin-bottom: 10px;
