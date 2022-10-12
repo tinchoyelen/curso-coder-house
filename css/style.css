@@ -185,17 +185,17 @@ footer #info div a:visited, footer #info div a:hover {
 section .columna {
   width: 45%;
   display: inline-block;
-  padding: 6px;
+  padding: 10px;
   vertical-align: top;
 }
 section #columna-izquierda div {
-  background-color: white;
-  padding: 4px;
+  padding: 10px;
 }
 section .contenedorQuienes {
   display: inline-block;
-  padding: 25px;
+  padding: 10px;
   background-color: none;
+  font-size: 25px;
 }
 
 section .carrousel-dimension2 {

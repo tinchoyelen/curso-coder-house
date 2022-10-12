@@ -2,17 +2,17 @@ section{
     & .columna{
         width: 45%;
         display: inline-block;
-        padding: 6px;
+        padding: 10px;
         vertical-align: top;
     }
         & #columna-izquierda div{
-        background-color: white;
-        padding: 4px;
+        padding: 10px;
         }
             & .contenedorQuienes{
                 display: inline-block;
-                padding: 25px;
+                padding: 10px;
                 background-color: none;
+                font-size: 25px;
             }
 }
 
