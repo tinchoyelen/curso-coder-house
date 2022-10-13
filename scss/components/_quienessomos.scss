@@ -1,23 +1,22 @@
-section{
-    & .columna{
-        width: 45%;
-        display: inline-block;
-        padding: 10px;
-        vertical-align: top;
-    }
-        & #columna-izquierda div{
-        padding: 10px;
+#quienesSomos{
+    padding: 50px 0;
+    & .contenedorImagen{
+    
+        & img{
+            display: block;
+            margin: 0 auto;
+            max-width: 450px;
         }
-            & .contenedorQuienes{
-                display: inline-block;
-                padding: 10px;
-                background-color: none;
-                font-size: 25px;
-                @media (max-width:768px){
-                    text-align: center;
-                    font-size: 5px;
-                }
-            }
+    }
+    & .contenedorQuienes{
+        padding: 10px;
+        background-color: none;
+        font-size: 23px;
+        @media (max-width:991px){
+            text-align: center;
+            font-size: 13px;
+        }
+    }
 }
 
 

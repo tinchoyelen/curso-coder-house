@@ -182,25 +182,23 @@ footer #info div a:visited, footer #info div a:hover {
   border: 1px solid #97d848;
 }
 
-section .columna {
-  width: 45%;
-  display: inline-block;
-  padding: 10px;
-  vertical-align: top;
+#quienesSomos {
+  padding: 50px 0;
 }
-section #columna-izquierda div {
-  padding: 10px;
+#quienesSomos .contenedorImagen img {
+  display: block;
+  margin: 0 auto;
+  max-width: 450px;
 }
-section .contenedorQuienes {
-  display: inline-block;
+#quienesSomos .contenedorQuienes {
   padding: 10px;
   background-color: none;
-  font-size: 25px;
+  font-size: 23px;
 }
-@media (max-width: 768px) {
-  section .contenedorQuienes {
+@media (max-width: 991px) {
+  #quienesSomos .contenedorQuienes {
     text-align: center;
-    font-size: 5px;
+    font-size: 13px;
   }
 }
 
@@ -212,6 +210,21 @@ section .carrousel-dimension2 {
   section .carrousel-dimension2 {
     width: auto;
   }
+}
+
+.extras {
+  padding: 100px 0;
+  text-align: center;
+}
+.extras .beneficios {
+  text-align: center;
+}
+.extras .listaServicios {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  font-size: 16px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
