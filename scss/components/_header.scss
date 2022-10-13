@@ -3,7 +3,7 @@
 
 header {
     padding: 0 60px 15px 60px;
-    background-image: linear-gradient(to top, rgb(209, 205, 205), rgb(178, 178, 248));
+    @include main-gradient;
 
     & nav{
         background-image: none;
